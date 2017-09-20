@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  ng-todo:
+    image: ng-todo
+    build: .
+    ports: 
+      - 80:3000
+      - 35729:35729
+    volumes:
+      - type: bind 
+        source: .
+        target: /usr/src/app

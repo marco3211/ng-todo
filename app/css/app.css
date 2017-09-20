@@ -1,0 +1,125 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  margin: 0;
+}
+
+input[type="submit"] {
+  border: 0;
+  text-align: center;
+  padding: 1.2vw 3vw 1vw;
+  border-radius: 0.2vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.3vw;
+  outline: none;
+  cursor: pointer;
+  transition: all .15s;
+  color: white;
+}
+
+button {
+  border: 0;
+  text-align: center;
+  padding: 1.2vw 3vw 1vw;
+  border-radius: 0.2vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.3vw 0;
+  outline: none;
+  cursor: pointer;
+  transition: all .15s;
+  color: white;
+}
+
+header {
+  box-shadow: 0px 1px 1px 1px #000;
+}
+
+.jumbotron {
+  color: #FFF;
+  padding: 50px 15px;
+}
+
+.jumbotron h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.jumbotron h3 {
+  font-weight: 100;
+}
+
+div.add-todo {
+  position: absolute;
+  top: 0;
+  background: white;
+  left: 35%;
+  box-shadow: 0px 1px 1px 1px #000;
+}
+
+.add-todo form label {
+  margin-left: 15px;
+}
+
+.add-todo form input {
+  padding: 0.35vw;
+}
+
+.add-todo form input.button {
+  padding: 0.5vw 3vw 0.5vw;
+}
+
+.todo-list {
+  border: thin solid #333;
+  padding: 15px 0;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.todo-list a {
+  color: #000;
+}
+
+.dark-primary-color {
+  background: #1976D2 !important;
+}
+
+.default-primary-color {
+  background: #2196F3 !important;
+}
+
+.light-primary-color {
+  background: #BBDEFB !important;
+}
+
+.text-primary-color {
+  color: #FFFFFF !important;
+}
+
+.accent-color {
+  background: #FF5722 !important;
+}
+
+.primary-text-color {
+  color: #212121 !important;
+}
+
+.secondary-text-color {
+  color: #757575 !important;
+}
+
+.divider-color {
+  border-color: #BDBDBD !important;
+}
