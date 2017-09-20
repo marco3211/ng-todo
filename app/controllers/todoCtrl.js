@@ -1,9 +1,9 @@
 app.controller('todoCtrl', ['$scope', '$log', '$routeParams', '$location', '$localForage', 
   function todoCtrl($scope, $log, $routeParams, $location, $localForage) {
   $scope.lists = [];
-  $scope.title = 'Todo App';
   $scope.todo = '';
   $scope.param = $routeParams.id;
+  $scope.todoTitle = $routeParams.id;
 
   $log.log($scope.param);
 
