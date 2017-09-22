@@ -20,9 +20,9 @@
       </section>
   </section>
 
-  <section class="row around-md">
-      <div class="col-md-3 todo-list" ng-repeat="todo in todos track by $index">
-          <a href="todo/{{todo}}">{{ todo }}</a>
+  <section class="row around-md" ng-repeat="todo in todos track by $index" ng-if="$index % 4 == 0">
+      <div class="col-md-3 todo-list" ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" ng-if="todos[i] != null">
+          <a href="todo/{{todos[i]}}">{{ todos[i] }}</a>
       </div>
   </section>
 </section>
